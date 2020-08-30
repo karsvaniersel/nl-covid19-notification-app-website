@@ -1,6 +1,3 @@
----
----
-
 /* check to see if you named all colors:
 $ grep -Po '(#[0-9A-Fa-f]{6}|rgba?\([^)]+\)) ?(/[*].*[*]/)?' css/main.css | grep -vE '^(#(0{6}|[Ff]{6}))|(rgba?\((0,\s*){3}|(255,\s*){3})' | sort | uniq -c | sort -k2
 */
@@ -225,26 +222,6 @@ a:hover {
     }
 }
 
-/* .logo .wordmark {
-   font-size: 14px;
-   line-height: 14px;
-   margin-left: 9px;
-   margin-right: 21px;
-   width: 210px;
-   letter-spacing: 0.001em;
-   font-family: 'RO Serif', 'Times New Roman',Times, serif;
-   float: right;
-   padding-top: 34px;
-   display: block;
-} */
-
-
-
-/* Yellow header bar */
-
-.headerbar {
-}
-
 /* Watch button */
 
 header .watch {
@@ -340,8 +317,6 @@ header .watch > a:hover {
 }
 
 .lead__preview {
-    // margin: 0 -1em 1.6em -1em;
-
     > img {
         display: none;
     }
@@ -350,9 +325,6 @@ header .watch > a:hover {
         display: block;
         position: absolute;
         z-index: 0;
-        // top: -343px;
-        // right: -349px;
-        // width: 324px;
         top: -250px;
         right: -316px;
         width: 262px;
@@ -392,44 +364,6 @@ header .watch > a:hover {
     position: relative;
     z-index: 1;
 }
-
-/**
-
-
-    .content {
-        width: 100%;
-        margin-left: 0;
-        display: flex;
-    }
-    .content > div {
-        flex: 50%;
-    }
-    .content .lead {
-        margin-right: 16px;
-    }
-    .content .follow {
-        margin-left: 16px;
-    }
-*/
-
-/**
-
-
-    .content {
-        display: block;
-        padding: 16px;
-    }
-
-    .content .lead {
-        padding-top: 0.5rem;
-        margin-right: 0;
-    }
-
-    .content .follow {
-        margin-left: 0;
-    }
-*/
-
 
 .follow > h2 {
     font-size: 1rem;
@@ -653,9 +587,6 @@ header .watch > a:hover {
 }
 
 /* Statement More information */
-
-.card-content > .more {
-}
 
 .card-content > .more > h3 {
     font-size: 1.625rem;
